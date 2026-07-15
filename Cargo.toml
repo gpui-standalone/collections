@@ -1,6 +1,6 @@
 [package]
 name = "collections-gpui-standalone"
-version = "1.10.3"
+version = "1.11.3"
 license = "Apache-2.0"
 description = "Standard collection types used by Zed and GPUI"
 edition = "2024"
@@ -15,6 +15,6 @@ name = "collections"
 test-support = []
 
 [dependencies]
-gpui_util = {package = "gpui_util-gpui-standalone", version = "1.10.3"}
+gpui_util = {package = "gpui_util-gpui-standalone", version = "1.11.3"}
 indexmap = {version = "^2.7.0", features = ["serde"]}
 rustc-hash = "^2.1.0"
